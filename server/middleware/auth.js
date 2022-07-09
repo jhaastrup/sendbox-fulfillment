@@ -11,7 +11,7 @@ import { CarrierService, Fulfillment } from "@shopify/shopify-api/dist/rest-reso
     trackingSupport: true, 
     callbackUrl:"/sendbox_callback/fulfillment_order_notification", 
     fulfillmentOrdersOptIn:true 
-    inventoryManagement:true
+    inventoryManagement:true 
     ) {
     userErrors {
       message
